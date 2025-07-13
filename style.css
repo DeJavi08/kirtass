@@ -1,6 +1,6 @@
 /*
   KIRTASS SMAN 17 Surabaya
-  Stylesheet v5.0 - CTA Section & Final Responsive Fixes
+  Stylesheet v5.1 - Header Button & Responsive Fix
 */
 
 /* ------------------- */
@@ -41,12 +41,18 @@ p { margin-bottom: 1rem; max-width: 65ch; }
 .hamburger span { height: 3px; width: 25px; background: var(--primary-color); border-radius: 2px; }
 
 /* ------------------- */
-/* Header & Tombol     */
+/* Header & Tombol (DIPERBAIKI) */
 /* ------------------- */
 .header { background-image: linear-gradient(rgba(0, 20, 40, 0.6), rgba(0, 20, 40, 0.6)), url('https://lh3.googleusercontent.com/d/17iOicBobqgRkjIDBdoIhLTYXNVno6w8G=w1000?authuser=1/view'); background-size: cover; background-position: center; min-height: 85vh; display: flex; justify-content: center; align-items: center; text-align: center; color: var(--white-color); }
 .header-content h1 { font-size: clamp(2.5rem, 5vw, 4rem); color: var(--white-color); }
 .header-content p { font-size: 1.3rem; max-width: 600px; margin: 1rem auto 2.5rem auto; }
-.btn { padding: 0.8rem 2rem; border-radius: 50px; font-weight: 600; transition: all 0.3s ease; border: 2px solid transparent; }
+.header-buttons {
+    display: flex;
+    flex-direction: column; /* Tombol menumpuk ke bawah di mobile */
+    align-items: center;
+    gap: 1rem; /* Jarak antar tombol */
+}
+.btn { padding: 0.8rem 2rem; border-radius: 50px; font-weight: 600; transition: all 0.3s ease; border: 2px solid transparent; width: fit-content; }
 .btn-primary { background-color: var(--primary-color); color: var(--white-color); }
 .btn-primary:hover { background-color: var(--primary-dark); transform: translateY(-2px); }
 .btn-secondary { background-color: transparent; color: var(--white-color); border-color: var(--white-color); }
@@ -96,31 +102,17 @@ p { margin-bottom: 1rem; max-width: 65ch; }
 #blog .blog-post { background-color: var(--white-color); padding: 2rem; border-radius: var(--border-radius); box-shadow: var(--shadow); }
 
 /* ------------------- */
-/* Bagian: Pendaftaran (BARU & DIPERBAIKI) */
+/* Bagian: Pendaftaran */
 /* ------------------- */
-#pendaftaran {
-    background: linear-gradient(45deg, var(--primary-color), var(--primary-dark));
-    color: var(--white-color);
-    padding: 5rem 1.5rem; /* Padding lebih besar */
-}
+#pendaftaran { background: linear-gradient(45deg, var(--primary-color), var(--primary-dark)); color: var(--white-color); padding: 5rem 1.5rem; }
 #pendaftaran h2 { color: var(--white-color); }
 #pendaftaran p { color: rgba(255, 255, 255, 0.9); }
 .pendaftaran-cta { text-align: center; }
 .pendaftaran-cta p { max-width: 600px; margin-left: auto; margin-right: auto; margin-bottom: 3rem; }
 .pendaftaran-content { display: flex; flex-direction: column; align-items: center; gap: 2.5rem; }
 .pendaftaran-poster { max-width: 100%; width: 500px; border-radius: var(--border-radius); box-shadow: 0 10px 30px rgba(0,0,0,0.3); border: 3px solid var(--white-color); }
-#pendaftaran .btn-large {
-    background-color: var(--white-color);
-    color: var(--primary-dark);
-    font-size: 1.2rem;
-    padding: 1rem 3rem;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-}
-#pendaftaran .btn-large:hover {
-    background-color: #e9ecef;
-    transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
-}
+#pendaftaran .btn-large { background-color: var(--white-color); color: var(--primary-dark); font-size: 1.2rem; padding: 1rem 3rem; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+#pendaftaran .btn-large:hover { background-color: #e9ecef; transform: translateY(-3px) scale(1.02); box-shadow: 0 6px 20px rgba(0,0,0,0.25); }
 
 /* ------------------- */
 /* Bagian: Kontak      */
@@ -137,6 +129,13 @@ p { margin-bottom: 1rem; max-width: 65ch; }
 @media (min-width: 769px) {
     .nav-links { display: flex; }
     .hamburger { display: none; }
+
+    /* Tombol header kembali berdampingan di desktop */
+    .header-buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
+
     .tentang-wrapper { grid-template-columns: 2fr 1fr; gap: 3rem; }
     .tentang-teks h2 { text-align: left; }
     .tentang-logo { text-align: right; }
