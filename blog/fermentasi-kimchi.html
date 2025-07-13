@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rahasia Fermentasi Kimchi - KIRTASS SMAN 17</title>
     <link rel="icon" href="https://lh3.googleusercontent.com/d/1Ucb2hDxR1-R1r__z6x3FiWgjEZvDCYuK=w1000?authuser=1/view" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <!-- Path CSS diubah karena berada di dalam folder blog -->
+    <link rel="stylesheet" href="../style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -15,48 +16,46 @@
     <!-- Navigasi yang konsisten -->
     <nav class="navbar">
         <div class="container">
-            <a href="index.html" class="nav-logo">
+            <a href="../index.html" class="nav-logo">
                 <img src="https://lh3.googleusercontent.com/d/1Ucb2hDxR1-R1r__z6x3FiWgjEZvDCYuK=w1000?authuser=1/view" alt="Logo KIRTASS" class="nav-logo-img">
             </a>
-            <div class="nav-links">
-                <a href="index.html#tentang">Tentang</a>
-                <a href="index.html#kegiatan">Kegiatan Kami</a>
-                <a href="index.html#galeri">Galeri</a>
-                <a href="index.html#blog">Blog</a>
-                <a href="index.html#pendaftaran">Pendaftaran</a>
-                <a href="index.html#kontak">Kontak</a>
-            </div>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
         </div>
     </nav>
 
     <main>
-        <section class="blog-article-page">
+        <article class="blog-article-page">
             <div class="article-container">
-                <h1>Kenapa Kimchi Bisa Awet dan Enak? Rahasia Fermentasi</h1>
-                <p>Kimchi adalah makanan tradisional Korea yang terkenal dengan rasa asam, pedas, dan segarnya. Tapi, bagaimana bisa sayuran yang difermentasi ini tidak busuk dan justru menjadi lebih enak? Jawabannya terletak pada proses biokimia yang disebut <strong>fermentasi asam laktat</strong>.</p>
+                <header class="article-header">
+                    <h1 class="article-title">Kenapa Kimchi Bisa Awet dan Enak? Rahasia Fermentasi</h1>
+                    <div class="article-meta">
+                        <span class="author">Oleh: Javi Ahmad</span>
+                        <span class="date">Diterbitkan: 13 Juni 2025</span>
+                    </div>
+                </header>
                 
-                <h3>Aktor Utama: Bakteri Baik</h3>
-                <p>Fermentasi kimchi didalangi oleh berbagai jenis bakteri baik, terutama dari genus <em>Lactobacillus</em>, <em>Weissella</em>, dan <em>Leuconostoc</em>. Bakteri ini secara alami ada di sayuran seperti sawi.</p>
-                
-                <h3>Bagaimana Prosesnya Terjadi?</h3>
-                <ol>
-                    <li><strong>Penggaraman:</strong> Langkah pertama dalam membuat kimchi adalah menggarami sawi. Garam menarik air keluar dari sel sayuran, menciptakan lingkungan yang tidak ramah bagi bakteri pembusuk. Namun, bakteri asam laktat (yang tahan garam) bisa tetap hidup.</li>
-                    <li><strong>Konsumsi Gula:</strong> Bakteri asam laktat kemudian mulai "memakan" gula alami yang ada di dalam sawi dan bahan lainnya (seperti bawang putih dan jahe).</li>
-                    <li><strong>Produksi Asam Laktat:</strong> Sebagai hasil dari metabolisme gula, bakteri ini menghasilkan asam laktat. Asam inilah yang memberikan rasa asam khas pada kimchi.</li>
-                    <li><strong>Pengawetan Alami:</strong> Asam laktat menurunkan pH lingkungan kimchi, membuatnya menjadi sangat asam. Kondisi asam ini sangat efektif untuk menghambat pertumbuhan bakteri pembusuk dan patogen lainnya. Inilah yang membuat kimchi bisa awet berbulan-bulan.</li>
-                </ol>
+                <img src="https://lh3.googleusercontent.com/d/1HxFgnmLx85kHL2sJUHK0J1gQppNW67--=w1000?authuser=1/view" alt="Proses fermentasi kimchi dengan berbagai bahan" class="article-main-image">
 
-                <h3>Manfaat Lain Fermentasi</h3>
-                <p>Selain mengawetkan, proses fermentasi juga menghasilkan senyawa-senyawa baru yang menciptakan aroma dan rasa kompleks pada kimchi. Bakteri baik ini juga dikenal sebagai probiotik, yang sangat bermanfaat untuk kesehatan pencernaan kita.</p>
+                <div class="article-content">
+                    <p>Kimchi adalah makanan tradisional Korea yang terkenal dengan rasa asam, pedas, dan segarnya. Tapi, bagaimana bisa sayuran yang difermentasi ini tidak busuk dan justru menjadi lebih enak? Jawabannya terletak pada proses biokimia yang disebut <strong>fermentasi asam laktat</strong>.</p>
+                    
+                    <h3>Aktor Utama: Bakteri Baik</h3>
+                    <p>Fermentasi kimchi didalangi oleh berbagai jenis bakteri baik, terutama dari genus <em>Lactobacillus</em>, <em>Weissella</em>, dan <em>Leuconostoc</em>. Bakteri ini secara alami ada di sayuran seperti sawi.</p>
+                    
+                    <h3>Bagaimana Prosesnya Terjadi?</h3>
+                    <ol>
+                        <li><strong>Penggaraman:</strong> Langkah pertama dalam membuat kimchi adalah menggarami sawi. Garam menarik air keluar dari sel sayuran, menciptakan lingkungan yang tidak ramah bagi bakteri pembusuk. Namun, bakteri asam laktat (yang tahan garam) bisa tetap hidup.</li>
+                        <li><strong>Konsumsi Gula:</strong> Bakteri asam laktat kemudian mulai "memakan" gula alami yang ada di dalam sawi dan bahan lainnya (seperti bawang putih dan jahe).</li>
+                        <li><strong>Produksi Asam Laktat:</strong> Sebagai hasil dari metabolisme gula, bakteri ini menghasilkan asam laktat. Asam inilah yang memberikan rasa asam khas pada kimchi.</li>
+                        <li><strong>Pengawetan Alami:</strong> Asam laktat menurunkan pH lingkungan kimchi, membuatnya menjadi sangat asam. Kondisi asam ini sangat efektif untuk menghambat pertumbuhan bakteri pembusuk dan patogen lainnya. Inilah yang membuat kimchi bisa awet berbulan-bulan.</li>
+                    </ol>
+
+                    <h3>Manfaat Lain Fermentasi</h3>
+                    <p>Selain mengawetkan, proses fermentasi juga menghasilkan senyawa-senyawa baru yang menciptakan aroma dan rasa kompleks pada kimchi. Bakteri baik ini juga dikenal sebagai probiotik, yang sangat bermanfaat untuk kesehatan pencernaan kita.</p>
+                </div>
                 
-                <a href="index.html#blog" class="back-link">← Kembali ke Blog</a>
+                <a href="../index.html#blog" class="back-link">← Kembali ke Semua Artikel</a>
             </div>
-        </section>
+        </article>
     </main>
     
     <footer class="footer">
@@ -65,6 +64,7 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- Path JS diubah -->
+    <script src="../script.js"></script>
 </body>
 </html>
