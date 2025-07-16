@@ -9,13 +9,13 @@
 
 ## 📷 Galeri Kegiatan
 
-| Field Trip | Presentasi | Eksperimen |
+| SKEVA | Welcome Party | Museum Kanker |
 |------------|------------|------------|
-| ![UBAYA](https://lh3.googleusercontent.com/d/1Fcqcd8eb35V6YeKpHYE7v_2MaAjavTnH=s400) | ![Presentasi](https://lh3.googleusercontent.com/d/11NBZlB1-MvMZaI250SNdPLEEBeT9uo03=s400) | ![Eksperimen](https://lh3.googleusercontent.com/d/1_fbfIqGyDY-GoqY9xDsKHCbmL843XssR=s400) |
+| ![SKEVA](https://lh3.googleusercontent.com/d/1Fcqcd8eb35V6YeKpHYE7v_2MaAjavTnH=s400) | ![Welcome](https://lh3.googleusercontent.com/d/11NBZlB1-MvMZaI250SNdPLEEBeT9uo03=s400) | ![Kanker](https://lh3.googleusercontent.com/d/1_fbfIqGyDY-GoqY9xDsKHCbmL843XssR=s400) |
 
-| Welcome Party | Foto Bareng | Kimchi |
+| COSMIC | Kimchi | UBAYA |
 |---------------|-------------|--------|
-| ![Welcome](https://lh3.googleusercontent.com/d/1NXMqcZRPRUBQDPb8gI4k8UYBaO9tqy_V=s400) | ![Grup](https://lh3.googleusercontent.com/d/19PCbEpThyi4tZh5ir1xte6QEZo2ZEoiE=s400) | ![Kimchi](https://lh3.googleusercontent.com/d/1wVXYmqm1SssZvm_lJJmlHkvZ0qMY8C4O=s400) |
+| ![COSMIC](https://lh3.googleusercontent.com/d/1NXMqcZRPRUBQDPb8gI4k8UYBaO9tqy_V=s400) | ![KIMCHI](https://lh3.googleusercontent.com/d/19PCbEpThyi4tZh5ir1xte6QEZo2ZEoiE=s400) | ![UBAYA](https://lh3.googleusercontent.com/d/1wVXYmqm1SssZvm_lJJmlHkvZ0qMY8C4O=s400) |
 
 ## 🛠️ Teknologi
 
