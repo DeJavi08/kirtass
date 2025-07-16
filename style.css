@@ -112,86 +112,48 @@ p { margin-bottom: 1rem; max-width: 65ch; }
 #pendaftaran .btn-large:hover { background-color: #e9ecef; transform: translateY(-3px) scale(1.02); box-shadow: 0 6px 20px rgba(0,0,0,0.25); }
 
 /* ------------------- */
-/* Bagian: Kontak      */
+/* Bagian: Kontak (Jarak Diperbaiki) */
 /* ------------------- */
+#kontak {
+    padding-top: 6rem; /* Jarak atas ditambah */
+    padding-bottom: 6rem; /* Jarak bawah ditambah */
+}
 .kontak-wrapper { display: grid; grid-template-columns: 1fr; gap: 3rem; text-align: center; }
 .kontak-info ul { list-style: none; padding: 0; }
 .embed-map-responsive { position: relative; width: 100%; height: 350px; border-radius: var(--border-radius); overflow: hidden; }
 .embed-map-frame { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
-.footer { background-color: var(--heading-color); color: var(--white-color); text-align: center; padding: 2rem 1rem; }
 
 /* ------------------- */
-/* HALAMAN ARTIKEL BLOG (BARU) */
+/* Footer (Diperbarui) */
 /* ------------------- */
-.blog-article-page {
-    padding: 4rem 0;
-    background-color: #fff;
-}
-.article-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 1.5rem;
-}
-.article-header {
-    margin-bottom: 2rem;
-    padding-bottom: 1.5rem;
-    border-bottom: 1px solid #e0e0e0;
-}
-.article-title {
-    font-size: clamp(2rem, 5vw, 2.8rem);
-    color: var(--heading-color);
-    line-height: 1.3;
-    margin-bottom: 1rem;
-}
-.article-meta {
-    font-size: 0.9rem;
-    color: #666;
+.footer { background-color: var(--heading-color); color: var(--white-color); text-align: center; padding: 2rem 1rem; }
+.footer-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem 1.5rem; /* Jarak atas-bawah dan samping */
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
-.article-meta .author, .article-meta .date {
-    display: block;
-}
-.article-main-image {
-    width: 100%;
-    height: auto;
-    max-height: 450px;
-    object-fit: cover;
-    border-radius: var(--border-radius);
-    margin-bottom: 2.5rem;
-    box-shadow: var(--shadow);
-}
-.article-content p, .article-content li {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    margin-bottom: 1.5rem;
-}
-.article-content h3 {
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
-    font-size: 1.6rem;
-    color: var(--primary-dark);
-}
-.article-content ol, .article-content ul {
-    padding-left: 1.5rem;
-}
-.back-link {
-    display: inline-block;
-    margin-top: 3rem;
-    font-weight: 600;
-    font-size: 1rem;
-    color: var(--primary-color);
-    text-decoration: none;
-    border: 1px solid #ddd;
-    padding: 0.5rem 1rem;
-    border-radius: 50px;
-    transition: all 0.3s ease;
-}
-.back-link:hover {
-    background-color: var(--secondary-color);
-    border-color: #ccc;
-}
+.footer p { margin: 0; opacity: 0.8; font-size: 0.9rem; }
+.footer p a { color: var(--white-color); text-decoration: underline; opacity: 0.9; }
+.footer p a:hover { opacity: 1; }
+.footer-links { display: flex; gap: 1.5rem; }
+.footer-links a { color: var(--white-color); opacity: 0.7; }
+.footer-links a:hover { opacity: 1; transform: scale(1.1); }
+.footer-links svg { width: 24px; height: 24px; }
+
+/* ... (Kode CSS untuk Halaman Blog tetap sama) ... */
+.blog-article-page { padding: 4rem 0; background-color: #fff; }
+.article-container { max-width: 800px; margin: 0 auto; padding: 0 1.5rem; }
+.article-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid #e0e0e0; }
+.article-title { font-size: clamp(2rem, 5vw, 2.8rem); color: var(--heading-color); line-height: 1.3; margin-bottom: 1rem; }
+.article-meta { font-size: 0.9rem; color: #666; display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; }
+.article-meta .author, .article-meta .date { display: block; }
+.article-main-image { width: 100%; height: auto; max-height: 450px; object-fit: cover; border-radius: var(--border-radius); margin-bottom: 2.5rem; box-shadow: var(--shadow); }
+.article-content p, .article-content li { font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; }
+.article-content h3 { margin-top: 2.5rem; margin-bottom: 1rem; font-size: 1.6rem; color: var(--primary-dark); }
+.article-content ol, .article-content ul { padding-left: 1.5rem; }
+.back-link { display: inline-block; margin-top: 3rem; font-weight: 600; font-size: 1rem; color: var(--primary-color); text-decoration: none; border: 1px solid #ddd; padding: 0.5rem 1rem; border-radius: 50px; transition: all 0.3s ease; }
+.back-link:hover { background-color: var(--secondary-color); border-color: #ccc; }
 
 /* ------------------- */
 /* Media Queries (Desktop View) */
@@ -204,24 +166,11 @@ p { margin-bottom: 1rem; max-width: 65ch; }
     .tentang-teks h2 { text-align: left; }
     .tentang-logo { text-align: right; }
     .tentang-logo img { max-width: 100%; padding-top: 2rem; }
-    #blog .blog-container { grid-template-columns: 1fr 1fr; }
+    #blog .blog-container { grid-template-columns: repeat(3, 1fr); } /* Tampilan 3 kolom untuk blog di desktop */
     .kontak-wrapper { grid-template-columns: 1fr 1.2fr; text-align: left; }
+    .footer-container { flex-direction: row; justify-content: space-between; }
 }
 
 /* Menu Navigasi Mobile yang Aktif */
-.nav-links.active {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: var(--white-color);
-    box-shadow: var(--shadow);
-    border-top: 1px solid #eee;
-}
-.nav-links.active a {
-    padding: 1rem;
-    text-align: center;
-    border-bottom: 1px solid var(--secondary-color);
-}
+.nav-links.active { display: flex; flex-direction: column; position: absolute; top: 100%; left: 0; width: 100%; background-color: var(--white-color); box-shadow: var(--shadow); border-top: 1px solid #eee; }
+.nav-links.active a { padding: 1rem; text-align: center; border-bottom: 1px solid var(--secondary-color); }
