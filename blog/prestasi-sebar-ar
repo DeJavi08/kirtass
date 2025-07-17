@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO UTAMA -->
+    <title>Javi Ahmad Raih Medali Emas WYIIA 2023 Berkat Aplikasi AR “SEBAR” - KIRTASS</title>
+    <meta name="description" content="Javi Ahmad, siswa SMAN 17 Surabaya dari KIRTASS, meraih medali emas di World Youth Invention and Innovation Award (WYIIA) 2023 dengan inovasi aplikasi Augmented Reality SEBAR.">
+    <meta name="keywords" content="Javi Ahmad, SEBAR AR, WYIIA 2023, IYSA, SMAN 17 Surabaya, SMANTASS, medali emas, augmented reality, KIRTASS, prestasi KIR">
+    <meta name="author" content="Javi Ahmad">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/images/site.webmanifest">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+    
+    <!-- CSS & Fonts -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD Structured Data untuk Artikel -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://kirtass.netlify.app/blog/prestasi-sebar-ar.html"
+      },
+      "headline": "Javi Ahmad Raih Medali Emas Internasional di WYIIA 2023 Berkat Aplikasi AR “SEBAR”",
+      "description": "Javi Ahmad, siswa SMAN 17 Surabaya dari KIRTASS, meraih medali emas di WYIIA 2023 dengan inovasi aplikasi Augmented Reality SEBAR.",
+      "image": "https://lh3.googleusercontent.com/d/14XW_R5pEHfKlsUvxeUXNJlFR7Pkx536X=w1000?authuser=1",
+      "author": {
+        "@type": "Person",
+        "name": "Javi Ahmad"
+      },  
+      "publisher": {
+        "@type": "Organization",
+        "name": "KIRTASS SMAN 17 Surabaya",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://kirtass.netlify.app/images/android-chrome-512x512.png"
+        }
+      },
+      "datePublished": "2025-07-17"
+    }
+    </script>
+</head>
+<body>
+
+    <!-- Navigasi -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="../index.html" class="nav-logo">
+                <img src="/images/android-chrome-192x192.png" alt="Logo KIRTASS" class="nav-logo-img">
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <article class="blog-article-page">
+            <div class="article-container">
+                <header class="article-header">
+                    <h1 class="article-title">Javi Ahmad Raih Medali Emas Internasional di WYIIA 2023 Berkat Aplikasi AR “SEBAR”</h1>
+                    <div class="article-meta">
+                        <span class="author">Oleh: Javi Ahmad</span>
+                        <span class="date">Diterbitkan: 17 Juli 2025</span>
+                    </div>
+                </header>
+                
+                <img src="https://lh3.googleusercontent.com/d/14XW_R5pEHfKlsUvxeUXNJlFR7Pkx536X=w1000?authuser=1" alt="Javi Ahmad dengan Medali Emas WYIIA 2023" class="article-main-image">
+
+                <div class="article-content">
+                    <p><strong>Surabaya, 14 Oktober 2023</strong> — Inovasi pendidikan karya pelajar Indonesia kembali mencetak prestasi gemilang di kancah internasional. Javier Ahmad Arivery, yang akrab disapa Javi, siswa SMAN 17 Surabaya, berhasil meraih Medali Emas dalam ajang World Youth Invention and Innovation Award (WYIIA) 2023 yang diselenggarakan oleh IYSA (Indonesian Young Scientist Association).</p>
+                    <p>Dengan bimbingan dari guru pembimbingnya, Mohammad Rafli Alfisyahr, Javi mempersembahkan inovasi berjudul <strong>SEBAR (Science Book Augmented Reality)</strong>, sebuah aplikasi edukatif berbasis Augmented Reality (AR) yang dirancang untuk mengubah buku IPA SMP menjadi media belajar yang interaktif dan imersif.</p>
+
+                    <h3>Revolusi Belajar Sains Lewat AR</h3>
+                    <p>Buku pelajaran sains sering kali dinilai sulit dipahami siswa karena kurangnya visualisasi konsep yang kompleks. SEBAR menjawab tantangan tersebut dengan menghadirkan objek 3D dari sistem tata surya ke dalam buku sains kelas 7 yang diterbitkan oleh pemerintah.</p>
+                    <p>Dengan hanya menggunakan kamera smartphone, siswa dapat melihat planet dan benda langit "muncul" langsung dari halaman buku. Teknologi ini dibangun menggunakan Unity 3D dan Vuforia SDK, dengan sistem berbasis marker—di mana gambar-gambar tertentu pada buku akan memicu munculnya objek virtual.</p>
+
+                    <h3>Pengujian dan Respons Positif Pengguna</h3>
+                    <p>Aplikasi ini telah diuji pada 100 siswa di SMPIT Al-Uswah Surabaya, menggunakan kuesioner UEQ (User Experience Questionnaire) untuk mengukur pengalaman pengguna. Hasilnya menunjukkan skor tinggi dalam kategori:</p>
+                    <ul>
+                        <li><strong>Stimulation:</strong> 2.040</li>
+                        <li><strong>Attractiveness:</strong> 1.998</li>
+                        <li><strong>Perspicuity (Kejelasan):</strong> 1.719</li>
+                    </ul>
+                    <p>Seluruh aspek dinilai positif oleh responden, menunjukkan bahwa aplikasi ini tidak hanya mudah digunakan, tetapi juga menyenangkan dan bermanfaat.</p>
+
+                    <h3>Dari Surabaya ke Dunia</h3>
+                    <p>Prestasi ini menjadi bukti bahwa pelajar Indonesia mampu bersaing secara global dengan memadukan teknologi dan kreativitas dalam dunia pendidikan. Javi menyampaikan bahwa keberhasilan ini tidak lepas dari dukungan guru pembimbing, sekolah, dan seluruh pihak yang telah memberikan semangat dan fasilitas.</p>
+                    <p>“Harapan saya, SEBAR bisa dikembangkan lebih luas lagi agar digunakan oleh lebih banyak sekolah di Indonesia, terutama di daerah yang akses teknologinya masih terbatas,” ujar Javi.</p>
+
+                    <h3>Detail Laporan dan Karya</h3>
+                    <p>Untuk melihat lebih dalam mengenai laporan penelitian, dokumentasi, dan hasil karya dari proyek SEBAR, Anda dapat mengakses tautan Google Drive berikut.</p>
+                    <a href="https://drive.google.com/drive/folders/1BRWOU_zntRJjwFSQ7cknG5gQOnQeRXYW?usp=drive_link" target="_blank" class="btn btn-primary">Lihat Laporan Lengkap di Google Drive</a>
+                </div>
+                
+                <a href="../index.html#blog" class="back-link">← Kembali ke Semua Artikel</a>
+            </div>
+        </article>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 KIRTASS SMAN 17 Surabaya. Dibuat oleh <a href="https://github.com/dejavi08" target="_blank" rel="noopener noreferrer">Dejavi08</a>.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
