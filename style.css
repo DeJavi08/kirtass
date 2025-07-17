@@ -92,11 +92,34 @@ p { margin-bottom: 1rem; max-width: 65ch; }
 .close-modal-button { position: absolute; top: 20px; right: 35px; color: #f1f1f1; font-size: 40px; font-weight: bold; cursor: pointer; }
 
 /* ------------------- */
-/* Bagian: Blog        */
+/* Bagian: Blog (Gaya Thumbnail BARU) */
 /* ------------------- */
 #blog .blog-container { display: grid; grid-template-columns: 1fr; gap: 2rem; }
 #blog .blog-post-link { display: block; color: inherit; text-decoration: none; }
-#blog .blog-post { background-color: var(--white-color); padding: 2rem; border-radius: var(--border-radius); box-shadow: var(--shadow); }
+#blog .blog-post {
+    background-color: var(--white-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    overflow: hidden; /* Agar gambar tidak keluar dari border-radius */
+    display: flex;
+    flex-direction: column;
+    transition: all 0.3s ease;
+}
+#blog .blog-post-link:hover .blog-post { transform: translateY(-5px); box-shadow: var(--shadow-hover); }
+.blog-thumbnail {
+    width: 100%;
+    height: 200px; /* Tinggi gambar thumbnail */
+    object-fit: cover;
+}
+.blog-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.blog-content h3 { font-size: 1.2rem; }
+.blog-content p { font-size: 0.9rem; flex-grow: 1; }
+.read-more-link { display: inline-block; margin-top: 1rem; font-weight: 600; color: var(--primary-color); }
 
 /* ------------------- */
 /* Bagian: Pendaftaran */
@@ -112,27 +135,15 @@ p { margin-bottom: 1rem; max-width: 65ch; }
 #pendaftaran .btn-large:hover { background-color: #e9ecef; transform: translateY(-3px) scale(1.02); box-shadow: 0 6px 20px rgba(0,0,0,0.25); }
 
 /* ------------------- */
-/* Bagian: Kontak (Jarak Diperbaiki) */
+/* Bagian: Kontak & Footer */
 /* ------------------- */
-#kontak {
-    padding-top: 6rem; /* Jarak atas ditambah */
-    padding-bottom: 6rem; /* Jarak bawah ditambah */
-}
+#kontak { padding-top: 6rem; padding-bottom: 6rem; }
 .kontak-wrapper { display: grid; grid-template-columns: 1fr; gap: 3rem; text-align: center; }
 .kontak-info ul { list-style: none; padding: 0; }
 .embed-map-responsive { position: relative; width: 100%; height: 350px; border-radius: var(--border-radius); overflow: hidden; }
 .embed-map-frame { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
-
-/* ------------------- */
-/* Footer (Diperbarui) */
-/* ------------------- */
 .footer { background-color: var(--heading-color); color: var(--white-color); text-align: center; padding: 2rem 1rem; }
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-}
+.footer-container { display: flex; flex-direction: column; align-items: center; gap: 1rem; }
 .footer p { margin: 0; opacity: 0.8; font-size: 0.9rem; }
 .footer p a { color: var(--white-color); text-decoration: underline; opacity: 0.9; }
 .footer p a:hover { opacity: 1; }
@@ -166,9 +177,13 @@ p { margin-bottom: 1rem; max-width: 65ch; }
     .tentang-teks h2 { text-align: left; }
     .tentang-logo { text-align: right; }
     .tentang-logo img { max-width: 100%; padding-top: 2rem; }
-    #blog .blog-container { grid-template-columns: repeat(3, 1fr); } /* Tampilan 3 kolom untuk blog di desktop */
+    #blog .blog-container { grid-template-columns: repeat(2, 1fr); } /* Tampilan 2 kolom untuk blog di desktop */
     .kontak-wrapper { grid-template-columns: 1fr 1.2fr; text-align: left; }
     .footer-container { flex-direction: row; justify-content: space-between; }
+}
+
+@media (min-width: 1024px) {
+    #blog .blog-container { grid-template-columns: repeat(4, 1fr); } /* Tampilan 4 kolom untuk blog di desktop besar */
 }
 
 /* Menu Navigasi Mobile yang Aktif */
