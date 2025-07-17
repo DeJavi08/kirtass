@@ -65,6 +65,25 @@ p { margin-bottom: 1rem; max-width: 65ch; }
 .tentang-logo img { max-width: 200px; height: auto; filter: drop-shadow(0px 10px 15px rgba(0,0,0,0.1)); }
 
 /* ------------------- */
+/* Video Profil (BARU) */
+/* ------------------- */
+#video-profil {
+    padding: 5rem 0;
+    background-color: var(--secondary-color);
+}
+.video-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.video-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-hover);
+}
+
+/* ------------------- */
 /* Bagian: Kegiatan    */
 /* ------------------- */
 #kegiatan, #blog { background-color: var(--secondary-color); }
