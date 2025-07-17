@@ -4,29 +4,52 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- Dibuat pada: 18 Juli 2025 -->
 
-<!-- Halaman Utama -->
+<!-- Halaman Utama (Prioritas Tertinggi) -->
 <url>
   <loc>https://kirtass.netlify.app/</loc>
-  <lastmod>2025-07-14T01:35:00+00:00</lastmod>
-  <priority>1.00</priority>
+  <lastmod>2025-07-18T00:31:00+07:00</lastmod>
   <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
 </url>
 
-<!-- Artikel Blog: Fermentasi Kimchi -->
+<!-- Artikel Blog (Diurutkan dari yang terbaru) -->
 <url>
-  <loc>https://kirtass.netlify.app/blog/fermentasi-kimchi.html</loc>
-  <lastmod>2025-07-14T01:35:00+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>https://kirtass.netlify.app/blog/prestasi-miftachul-aulidhina.html</loc>
+  <lastmod>2025-07-17T18:24:00+07:00</lastmod>
   <changefreq>yearly</changefreq>
+  <priority>0.90</priority>
 </url>
-
-<!-- Artikel Blog: Membuat Sabun -->
+<url>
+  <loc>https://kirtass.netlify.app/blog/prestasi-sebar-ar.html</loc>
+  <lastmod>2025-07-17T10:55:00+07:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://kirtass.netlify.app/blog/prestasi-skeva.html</loc>
+  <lastmod>2025-07-16T05:36:00+07:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://kirtass.netlify.app/blog/museum-kanker.html</loc>
+  <lastmod>2025-07-17T19:22:00+07:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
 <url>
   <loc>https://kirtass.netlify.app/blog/membuat-sabun.html</loc>
-  <lastmod>2025-07-14T01:35:00+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2025-07-14T01:35:00+07:00</lastmod>
   <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kirtass.netlify.app/blog/fermentasi-kimchi.html</loc>
+  <lastmod>2025-07-14T01:35:00+07:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
 </url>
 
 </urlset>
